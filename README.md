@@ -22,4 +22,11 @@ param := &rakuten.IchibaItemSearchParam{
 }
 resp, _ := c.IchibaItemSearch(param)
 fmt.Printf("resp = %+v\n", resp)
+
+param := &rakuten.IchibaRankingParam{
+        GenreID: "562354",
+        Page:    "2",
+}
+resp, err := c.IchibaItemRanking(param)
+fmt.Printf("resp = %+v\n", resp)
 ```
