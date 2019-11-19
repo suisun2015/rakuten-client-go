@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	ichibaItemBaseURL = "https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706"
+	ichibaItemBaseURL = "https://app.rakuten.co.jp/services/api/IchibaItem"
 	defaultUserAgent  = "rakuten AppID: "
 	apiRequestTimeout = 30 * time.Second
 )

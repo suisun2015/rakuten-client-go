@@ -1,16 +1,16 @@
 rakuten-client-go
 ==================
-
+forked from github.com/ken-io/rakuten-client-go
 ## Installation
 
 ```go
-go get -u github.com/ken-aio/rakuten-client-go
+go get -u github.com/suisun2015/rakuten-client-go
 ```
 
 ## Usage
 
 ```go
-import rakuten "github.com/ken-aio/rakuten-client-go"
+import rakuten "github.com/suisun2015/rakuten-client-go"
 ```
 
 ```go
